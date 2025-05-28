@@ -2,6 +2,8 @@ from . import db
 from flask_login import UserMixin
 from sqlalchemy.sql import func
 
+//make sure updates are clear for this file too
+
 
 class Note(db.Model):
     id = db.Column(db.Integer, primary_key=True)
